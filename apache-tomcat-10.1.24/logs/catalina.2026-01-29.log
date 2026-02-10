@@ -1,0 +1,355 @@
+29-Jan-2026 21:41:14.105 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.24
+29-Jan-2026 21:41:14.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2024 17:41:23 UTC
+29-Jan-2026 21:41:14.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.24.0
+29-Jan-2026 21:41:14.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Jan-2026 21:41:14.110 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Jan-2026 21:41:14.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Jan-2026 21:41:14.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.15.1
+29-Jan-2026 21:41:14.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15.1+2-LTS-10
+29-Jan-2026 21:41:14.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Jan-2026 21:41:14.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:41:14.114 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:41:14.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\conf\logging.properties
+29-Jan-2026 21:41:14.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Jan-2026 21:41:14.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Jan-2026 21:41:14.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Jan-2026 21:41:14.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Jan-2026 21:41:14.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Jan-2026 21:41:14.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Jan-2026 21:41:14.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Jan-2026 21:41:14.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Jan-2026 21:41:14.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:41:14.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:41:14.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\temp
+29-Jan-2026 21:41:14.243 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.15.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Likith\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python313\;C:\Users\Likith\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;C:\Users\Likith\AppData\Local\atom\bin;C:\Users\Likith\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Likith\Desktop\brackets\;C:\Users\Likith\AppData\Local\GitHubDesktop\bin;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Users\Likith\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Likith\AppData\Roaming\npm;C:\Users\Likith\AppData\Local\Programs\Antigravity\bin;c:\Users\Likith\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;.]
+29-Jan-2026 21:41:14.611 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:41:14.647 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1016)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:961)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:708)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:731)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:302)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:472)
+	Caused by: java.net.BindException: Address already in use: bind
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:459)
+		at java.base/sun.nio.ch.Net.bind(Net.java:448)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:239)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:194)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1286)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1299)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:624)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1014)
+		... 13 more
+29-Jan-2026 21:41:14.650 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [858] milliseconds
+29-Jan-2026 21:41:14.724 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Jan-2026 21:41:14.724 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.24]
+29-Jan-2026 21:41:14.747 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs]
+29-Jan-2026 21:41:15.771 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [521] milliseconds.
+29-Jan-2026 21:41:15.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs] has finished in [1,069] ms
+29-Jan-2026 21:41:15.815 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples]
+29-Jan-2026 21:41:16.222 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples] has finished in [407] ms
+29-Jan-2026 21:41:16.223 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager]
+29-Jan-2026 21:41:16.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager] has finished in [53] ms
+29-Jan-2026 21:41:16.276 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager]
+29-Jan-2026 21:41:16.317 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager] has finished in [41] ms
+29-Jan-2026 21:41:16.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT]
+29-Jan-2026 21:41:16.370 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT] has finished in [53] ms
+29-Jan-2026 21:41:16.376 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1725] milliseconds
+29-Jan-2026 21:41:16.385 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use: NET_Bind
+		at java.base/java.net.PlainSocketImpl.bind0(Native Method)
+		at java.base/java.net.PlainSocketImpl.socketBind(PlainSocketImpl.java:132)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:381)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:243)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:537)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:847)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+29-Jan-2026 21:41:16.386 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:41:16.387 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Jan-2026 21:41:16.419 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:41:16.421 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:42:33.751 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.24
+29-Jan-2026 21:42:33.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2024 17:41:23 UTC
+29-Jan-2026 21:42:33.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.24.0
+29-Jan-2026 21:42:33.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Jan-2026 21:42:33.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Jan-2026 21:42:33.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Jan-2026 21:42:33.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.15.1
+29-Jan-2026 21:42:33.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15.1+2-LTS-10
+29-Jan-2026 21:42:33.756 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Jan-2026 21:42:33.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:42:33.757 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:42:33.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\conf\logging.properties
+29-Jan-2026 21:42:33.771 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Jan-2026 21:42:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Jan-2026 21:42:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Jan-2026 21:42:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Jan-2026 21:42:33.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Jan-2026 21:42:33.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Jan-2026 21:42:33.773 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Jan-2026 21:42:33.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Jan-2026 21:42:33.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:42:33.774 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:42:33.776 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\temp
+29-Jan-2026 21:42:33.793 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.15.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Likith\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python313\;C:\Users\Likith\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;C:\Users\Likith\AppData\Local\atom\bin;C:\Users\Likith\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Likith\Desktop\brackets\;C:\Users\Likith\AppData\Local\GitHubDesktop\bin;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Users\Likith\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Likith\AppData\Roaming\npm;C:\Users\Likith\AppData\Local\Programs\Antigravity\bin;c:\Users\Likith\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;.]
+29-Jan-2026 21:42:34.160 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:42:34.204 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [657] milliseconds
+29-Jan-2026 21:42:34.275 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Jan-2026 21:42:34.276 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.24]
+29-Jan-2026 21:42:34.295 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs]
+29-Jan-2026 21:42:35.257 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [576] milliseconds.
+29-Jan-2026 21:42:35.302 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs] has finished in [1,007] ms
+29-Jan-2026 21:42:35.303 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples]
+29-Jan-2026 21:42:35.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples] has finished in [311] ms
+29-Jan-2026 21:42:35.613 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager]
+29-Jan-2026 21:42:35.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager] has finished in [39] ms
+29-Jan-2026 21:42:35.654 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager]
+29-Jan-2026 21:42:35.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager] has finished in [30] ms
+29-Jan-2026 21:42:35.684 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT]
+29-Jan-2026 21:42:35.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT] has finished in [44] ms
+29-Jan-2026 21:42:35.735 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:42:36.345 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2141] milliseconds
+29-Jan-2026 21:45:44.498 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:45:44.900 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Jan-2026 21:45:44.948 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:45:44.961 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:47:59.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.24
+29-Jan-2026 21:47:59.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2024 17:41:23 UTC
+29-Jan-2026 21:47:59.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.24.0
+29-Jan-2026 21:47:59.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Jan-2026 21:47:59.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Jan-2026 21:47:59.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Jan-2026 21:47:59.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.15.1
+29-Jan-2026 21:47:59.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15.1+2-LTS-10
+29-Jan-2026 21:47:59.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Jan-2026 21:47:59.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:47:59.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:47:59.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\conf\logging.properties
+29-Jan-2026 21:47:59.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Jan-2026 21:47:59.706 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Jan-2026 21:47:59.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Jan-2026 21:47:59.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Jan-2026 21:47:59.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Jan-2026 21:47:59.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Jan-2026 21:47:59.707 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Jan-2026 21:47:59.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Jan-2026 21:47:59.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:47:59.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:47:59.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\temp
+29-Jan-2026 21:47:59.722 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.15.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Likith\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python313\;C:\Users\Likith\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;C:\Users\Likith\AppData\Local\atom\bin;C:\Users\Likith\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Likith\Desktop\brackets\;C:\Users\Likith\AppData\Local\GitHubDesktop\bin;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Users\Likith\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Likith\AppData\Roaming\npm;C:\Users\Likith\AppData\Local\Programs\Antigravity\bin;c:\Users\Likith\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;.]
+29-Jan-2026 21:47:59.979 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:48:00.022 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [538] milliseconds
+29-Jan-2026 21:48:00.089 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Jan-2026 21:48:00.089 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.24]
+29-Jan-2026 21:48:00.103 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs]
+29-Jan-2026 21:48:01.036 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [571] milliseconds.
+29-Jan-2026 21:48:01.077 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs] has finished in [973] ms
+29-Jan-2026 21:48:01.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples]
+29-Jan-2026 21:48:01.374 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples] has finished in [297] ms
+29-Jan-2026 21:48:01.375 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager]
+29-Jan-2026 21:48:01.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager] has finished in [40] ms
+29-Jan-2026 21:48:01.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager]
+29-Jan-2026 21:48:01.441 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager] has finished in [25] ms
+29-Jan-2026 21:48:01.442 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT]
+29-Jan-2026 21:48:01.598 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT] has finished in [156] ms
+29-Jan-2026 21:48:01.605 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:48:02.073 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2051] milliseconds
+29-Jan-2026 21:48:29.227 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:48:30.062 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Jan-2026 21:48:30.172 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:48:30.184 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:49:17.587 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.24
+29-Jan-2026 21:49:17.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2024 17:41:23 UTC
+29-Jan-2026 21:49:17.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.24.0
+29-Jan-2026 21:49:17.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Jan-2026 21:49:17.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Jan-2026 21:49:17.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Jan-2026 21:49:17.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.15.1
+29-Jan-2026 21:49:17.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15.1+2-LTS-10
+29-Jan-2026 21:49:17.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Jan-2026 21:49:17.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:49:17.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:49:17.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\conf\logging.properties
+29-Jan-2026 21:49:17.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Jan-2026 21:49:17.608 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Jan-2026 21:49:17.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Jan-2026 21:49:17.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Jan-2026 21:49:17.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Jan-2026 21:49:17.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Jan-2026 21:49:17.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Jan-2026 21:49:17.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Jan-2026 21:49:17.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:49:17.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:49:17.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\temp
+29-Jan-2026 21:49:17.623 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.15.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Likith\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python313\;C:\Users\Likith\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;C:\Users\Likith\AppData\Local\atom\bin;C:\Users\Likith\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Likith\Desktop\brackets\;C:\Users\Likith\AppData\Local\GitHubDesktop\bin;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Users\Likith\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Likith\AppData\Roaming\npm;C:\Users\Likith\AppData\Local\Programs\Antigravity\bin;c:\Users\Likith\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;.]
+29-Jan-2026 21:49:17.873 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:49:17.903 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [526] milliseconds
+29-Jan-2026 21:49:17.980 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Jan-2026 21:49:17.981 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.24]
+29-Jan-2026 21:49:18.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs]
+29-Jan-2026 21:49:19.162 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [847] milliseconds.
+29-Jan-2026 21:49:19.226 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs] has finished in [1,225] ms
+29-Jan-2026 21:49:19.227 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples]
+29-Jan-2026 21:49:19.555 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples] has finished in [328] ms
+29-Jan-2026 21:49:19.555 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager]
+29-Jan-2026 21:49:19.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager] has finished in [27] ms
+29-Jan-2026 21:49:19.582 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager]
+29-Jan-2026 21:49:19.610 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager] has finished in [27] ms
+29-Jan-2026 21:49:19.610 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT]
+29-Jan-2026 21:49:19.665 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT] has finished in [55] ms
+29-Jan-2026 21:49:19.671 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:49:20.587 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2683] milliseconds
+29-Jan-2026 21:50:08.657 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:50:09.583 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Jan-2026 21:50:09.688 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:50:09.711 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:50:38.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.24
+29-Jan-2026 21:50:38.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2024 17:41:23 UTC
+29-Jan-2026 21:50:38.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.24.0
+29-Jan-2026 21:50:38.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Jan-2026 21:50:38.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Jan-2026 21:50:38.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Jan-2026 21:50:38.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.15.1
+29-Jan-2026 21:50:38.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15.1+2-LTS-10
+29-Jan-2026 21:50:38.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Jan-2026 21:50:38.842 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:50:38.843 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:50:38.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\conf\logging.properties
+29-Jan-2026 21:50:38.861 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Jan-2026 21:50:38.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Jan-2026 21:50:38.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Jan-2026 21:50:38.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Jan-2026 21:50:38.862 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Jan-2026 21:50:38.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Jan-2026 21:50:38.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Jan-2026 21:50:38.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Jan-2026 21:50:38.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:50:38.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:50:38.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\temp
+29-Jan-2026 21:50:38.875 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.15.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Likith\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python313\;C:\Users\Likith\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;C:\Users\Likith\AppData\Local\atom\bin;C:\Users\Likith\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Likith\Desktop\brackets\;C:\Users\Likith\AppData\Local\GitHubDesktop\bin;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Users\Likith\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Likith\AppData\Roaming\npm;C:\Users\Likith\AppData\Local\Programs\Antigravity\bin;c:\Users\Likith\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;.]
+29-Jan-2026 21:50:39.166 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:50:39.199 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [579] milliseconds
+29-Jan-2026 21:50:39.257 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Jan-2026 21:50:39.258 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.24]
+29-Jan-2026 21:50:39.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs]
+29-Jan-2026 21:50:40.187 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [595] milliseconds.
+29-Jan-2026 21:50:40.224 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs] has finished in [948] ms
+29-Jan-2026 21:50:40.225 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples]
+29-Jan-2026 21:50:40.507 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples] has finished in [283] ms
+29-Jan-2026 21:50:40.508 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager]
+29-Jan-2026 21:50:40.544 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager] has finished in [36] ms
+29-Jan-2026 21:50:40.545 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager]
+29-Jan-2026 21:50:40.578 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager] has finished in [33] ms
+29-Jan-2026 21:50:40.579 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT]
+29-Jan-2026 21:50:40.640 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT] has finished in [62] ms
+29-Jan-2026 21:50:40.645 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:50:41.210 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2011] milliseconds
+29-Jan-2026 21:51:09.648 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:51:10.610 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Jan-2026 21:51:10.735 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:51:10.758 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:52:48.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.24
+29-Jan-2026 21:52:48.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2024 17:41:23 UTC
+29-Jan-2026 21:52:48.202 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.24.0
+29-Jan-2026 21:52:48.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Jan-2026 21:52:48.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Jan-2026 21:52:48.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Jan-2026 21:52:48.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.15.1
+29-Jan-2026 21:52:48.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15.1+2-LTS-10
+29-Jan-2026 21:52:48.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Jan-2026 21:52:48.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:52:48.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:52:48.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\conf\logging.properties
+29-Jan-2026 21:52:48.221 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Jan-2026 21:52:48.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Jan-2026 21:52:48.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Jan-2026 21:52:48.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Jan-2026 21:52:48.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Jan-2026 21:52:48.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Jan-2026 21:52:48.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Jan-2026 21:52:48.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Jan-2026 21:52:48.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:52:48.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 21:52:48.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\temp
+29-Jan-2026 21:52:48.234 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.15.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Likith\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python313\;C:\Users\Likith\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;C:\Users\Likith\AppData\Local\atom\bin;C:\Users\Likith\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Likith\Desktop\brackets\;C:\Users\Likith\AppData\Local\GitHubDesktop\bin;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Users\Likith\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Likith\AppData\Roaming\npm;C:\Users\Likith\AppData\Local\Programs\Antigravity\bin;c:\Users\Likith\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;.]
+29-Jan-2026 21:52:48.529 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:52:48.557 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [569] milliseconds
+29-Jan-2026 21:52:48.605 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Jan-2026 21:52:48.605 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.24]
+29-Jan-2026 21:52:48.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs]
+29-Jan-2026 21:52:49.398 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [437] milliseconds.
+29-Jan-2026 21:52:49.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs] has finished in [819] ms
+29-Jan-2026 21:52:49.439 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples]
+29-Jan-2026 21:52:49.747 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples] has finished in [309] ms
+29-Jan-2026 21:52:49.748 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager]
+29-Jan-2026 21:52:49.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager] has finished in [35] ms
+29-Jan-2026 21:52:49.783 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager]
+29-Jan-2026 21:52:49.819 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager] has finished in [36] ms
+29-Jan-2026 21:52:49.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT]
+29-Jan-2026 21:52:49.941 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT] has finished in [121] ms
+29-Jan-2026 21:52:49.947 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:52:50.820 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2263] milliseconds
+29-Jan-2026 21:54:51.850 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:54:52.379 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+29-Jan-2026 21:54:52.484 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 21:54:52.508 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 22:04:26.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.24
+29-Jan-2026 22:04:26.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 9 2024 17:41:23 UTC
+29-Jan-2026 22:04:26.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.24.0
+29-Jan-2026 22:04:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+29-Jan-2026 22:04:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+29-Jan-2026 22:04:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+29-Jan-2026 22:04:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-11.0.15.1
+29-Jan-2026 22:04:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.15.1+2-LTS-10
+29-Jan-2026 22:04:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+29-Jan-2026 22:04:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 22:04:26.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 22:04:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\conf\logging.properties
+29-Jan-2026 22:04:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-Jan-2026 22:04:26.944 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+29-Jan-2026 22:04:26.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+29-Jan-2026 22:04:26.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+29-Jan-2026 22:04:26.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+29-Jan-2026 22:04:26.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+29-Jan-2026 22:04:26.945 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+29-Jan-2026 22:04:26.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+29-Jan-2026 22:04:26.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 22:04:26.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24
+29-Jan-2026 22:04:26.946 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\temp
+29-Jan-2026 22:04:26.957 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-11.0.15.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Likith\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Likith\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python313\;C:\Users\Likith\AppData\Local\Programs\Python\Launcher\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Likith\AppData\Local\Programs\Python\Python312\;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;C:\Users\Likith\AppData\Local\atom\bin;C:\Users\Likith\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Likith\Desktop\brackets\;C:\Users\Likith\AppData\Local\GitHubDesktop\bin;C:\Users\Likith\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm Community Edition 2021.3.2\bin;;C:\Users\Likith\AppData\Local\Microsoft\WinGet\Packages\Schniz.fnm_Microsoft.Winget.Source_8wekyb3d8bbwe;C:\Users\Likith\AppData\Roaming\npm;C:\Users\Likith\AppData\Local\Programs\Antigravity\bin;c:\Users\Likith\.vscode\extensions\vscjava.vscode-java-debug-0.58.5\bundled\scripts\noConfigScripts;.]
+29-Jan-2026 22:04:27.204 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 22:04:27.235 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [509] milliseconds
+29-Jan-2026 22:04:27.291 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+29-Jan-2026 22:04:27.291 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.24]
+29-Jan-2026 22:04:27.311 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs]
+29-Jan-2026 22:04:28.052 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [402] milliseconds.
+29-Jan-2026 22:04:28.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\docs] has finished in [783] ms
+29-Jan-2026 22:04:28.095 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples]
+29-Jan-2026 22:04:28.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\examples] has finished in [321] ms
+29-Jan-2026 22:04:28.416 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager]
+29-Jan-2026 22:04:28.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\host-manager] has finished in [40] ms
+29-Jan-2026 22:04:28.457 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager]
+29-Jan-2026 22:04:28.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\manager] has finished in [33] ms
+29-Jan-2026 22:04:28.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT]
+29-Jan-2026 22:04:28.648 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\DAP(PROJECTS)\FoodOrder\apache-tomcat-10.1.24\webapps\ROOT] has finished in [159] ms
+29-Jan-2026 22:04:28.654 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+29-Jan-2026 22:04:29.053 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1816] milliseconds
